@@ -1,0 +1,53 @@
+body
+{
+background-color:#00BAAA;
+font-family:britannic;
+}
+
+h1 
+{
+font-size: 400%;
+text-align:center;
+}
+
+h2
+{
+text-align:center;
+}
+
+
+a:link,a:visited
+{
+color:#00AAAA;
+}
+
+
+a:hover
+{
+color:#00AAFF;
+}
+
+h3
+{
+padding-top:350px;
+padding-left:0px;
+text-align:center;
+color:white;
+}
+
+div.brdr
+{
+    background-color:white;
+    display:block;
+    padding-top:20px;
+    border-bottom-left-radius:80px;
+    border-top-right-radius:80px;
+    border-top-left-radius:80px;
+    border-bottom-right-radius:80px;
+    border:#00AAFF;
+    width:250px;
+    height:170px;
+    position:absolute;
+    left:560px;
+    top:180px;
+}

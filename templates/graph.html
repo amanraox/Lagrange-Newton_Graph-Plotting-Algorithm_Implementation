@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <link rel="stylesheet" type="text/css" href="./static/css/graphstyle.css"/>
+
+
+    <meta charset="UTF-8">
+    <title>Plot</title>
+
+
+</head>
+<body>
+
+<h2>INTERPOLATION PLOT AND COMPARE</h2>
+<form  method="post">
+    <h4>Enter SPACE SEPARATED x-values-</h4>
+    <input type="text" name="x-vals"/>
+    <p><br></p>
+    <h4>Enter SPACE SEPARATED y-values-</h4>
+    <input type="text" name="y-vals"/>
+    <p><br></p>
+    <h4>Enter method(newton , lagrange)-</h4>
+    <input type="text" name="method"/>
+    <p><br></p>
+    <div>
+        <button type="submit" >Show Plot</button>
+    </div>
+</form>
+
+<img src={{source}} alt={{y}} align="middle" style="width:750px;height:1000px">
+</body>
+</html>
